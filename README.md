@@ -21,7 +21,7 @@ This is an Fiber Landing Page
 
 ### Links
 
-- Live Site URL:(https://peterforyou.github.io/chirp-landing-page/)
+- Live Site URL:(https://peterforyou.github.io/Fiber-landing-page/)
 
 ### Built with
 
