@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UT solid redF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .input-edit:focus {
+            border-color: rgba(0, 0, 0, 0.219);
+            box-shadow: 0 0 0 0.1px  #ddd;
+
+        }
+        .bg-work {
+            padding-right: 25px;
+            background: url(./Assets/hide\ password.svg) no-repeat right;
+            background-size: 20px;
+            background-position: 96%;
+        }
+        .blue-bg {
+            background-color: rgb(0, 0, 232);
+        }
+        .blue {
+            color: rgb(0, 0, 232);
+        }
+        .last-img {
+            width: 30rem;
+            margin: 0 auto;
+            display: flex;
+        }
+        .last-img img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="">
+       <div class="row">
+        <div class="col-md-6  p-5">
+            <div class="container">
+                <h4 class="pb-4 fw-bold">Fiber</h4>
+                <h1 class="fw-bolder pb-2">Create Your Fiber Account</h1>
+                <form>
+                    <div class="form-group">
+                      <label for="name">Your name</label>
+                      <input type="text" class="form-control mb-4 outline-none input-edit" id="peter" aria-describedby="nameHelp" placeholder="Enter Your name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control mb-4 input-edit" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control mb-4 input-edit bg-work" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <input type="checkbox">
+                    <p class="d-inline">By creating an account on Fiber, you agree to the <a href="#" class="blue">Terms & Conditions.</a></p>
+                    <button type="submit" class="btn  w-100 py-3 mt-4 blue-bg text-light">Create Fiber Account</button>
+                    <p class="pt-2 text-center ">Already have an account? <a href="#" class="text-decoration-none blue">Sign in</a></p>
+                  </form>
+            </div>
+        </div>
+        <div class="col-md-6 p-5 blue-bg d-none d-md-block">
+            <img class="img-fluid last-img" src="./Assets/Sign Up Image.png" alt="">
+            <h1 class="text-center text-light pt-3">Unparalled Templates</h1>
+            <p class="text-center text-light fw-lighter">Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. sit, amet consectetur adipisicing elit. Totam itaque tenetur minima!</p>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
